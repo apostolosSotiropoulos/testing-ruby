@@ -1,4 +1,6 @@
-require '/Users/me/Projects/test-ruby/module_container'
+# pls execute me with ruby main.rb in the dir of the files, ruby being installed
+
+require "#{Dir.pwd}/module_container"
 
 class NeededForInclude
   include Modular
