@@ -4,11 +4,6 @@ require "#{Dir.pwd}/module_container"
 
 class NeededForInclude
   include Modular
-
-  def tester_printer
-    instance_printer
-    class_printer
-  end
 end
 
 puts 'with INCLUDE instances will have the included methods. For example:'
